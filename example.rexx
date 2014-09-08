@@ -56,7 +56,7 @@ then DO
 /* create a path to the ApplIcon file based on the Pashua.app we are currently using */
 /* The Pashua package is distributed with a static link to Pashua.app in the Examples*/
 /* directory so strip that off if it exists and create a path to the .icon file      */
-iconPath = CHANGESTR("Examples/", pashuaPath, "")
+iconPath = CHANGESTR("Examples/Rexx", pashuaPath, "")
 iconPath = CHANGESTR("/MacOS/Pashua",iconPath, "")||"/Resources/AppIcon.icns"
 
 /* Create a tempfile that is guaranteed to be unqiue */
@@ -144,7 +144,7 @@ START_PASHUA_INPUT:
 /*  */
 /* # Introductory text */
 /* tb.type = text */
-/* tb.default = Pashua is an application for generating dialog windows from programming languages which lack support for creating native GUIs on Mac OS X. Any information you enter in this example window will be returned to the calling script when you hit “OK”; if you decide to click “Cancel” or press “Esc” instead, no values will be returned.[return][return]This window demonstrates nine of the GUI widgets that are currently available. You can find a full list of all GUI elements and their corresponding attributes in the documentation that is included with Pashua. */
+/* tb.default = Pashua is an application for generating dialog windows from programming languages which lack support for creating native GUIs on Mac OS X. Any information you enter in this example window will be returned to the calling script when you hit √íOK√ì; if you decide to click √íCancel√ì or press √íEsc√ì instead, no values will be returned.[return][return]This window demonstrates nine of the GUI widgets that are currently available. You can find a full list of all GUI elements and their corresponding attributes in the documentation that is included with Pashua. */
 /* tb.height = 276 */
 /* tb.width = 310 */
 /* tb.x = 340 */
